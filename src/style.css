@@ -1,0 +1,213 @@
+body {
+  background-color: var(--color-07);
+  font-family: "Red Hat Display";
+}
+.header .img-header {
+  display: block;
+
+  margin: 5rem auto 3.8rem auto;
+}
+
+.presentation {
+  /* background-color: aqua; */
+  display: flex;
+}
+
+.presentation h1 {
+  color: var(--color-02);
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 3rem 5rem 1rem 5rem;
+}
+
+.presentation p {
+  color: var(--color-01);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  padding: 1rem 3rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.buttons .btn-dowload {
+  width: 12rem;
+  height: 3.6rem;
+  border-radius: 1.8rem;
+  background-color: var(--color-03);
+  border: none;
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--color-07);
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.buttons .btn-dowload span {
+  color: var(--color-05);
+}
+
+.buttons .btn-what-is-it {
+  width: 8.5rem;
+  height: 3.6rem;
+  background-color: var(--color-04);
+  border: none;
+  border-radius: 1.8rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.presentation .img-users-left {
+  margin-left: -1rem;
+}
+
+.presentation,
+.img-users-right {
+  margin-right: -1rem;
+}
+
+.vertical-line {
+  border-left: 1px solid var(--color-01);
+  height: 84px;
+  position: absolute;
+  left: 50%;
+
+  top: 636px;
+}
+.separator {
+  display: flex;
+  justify-content: center;
+  margin-top: 185px;
+  margin-bottom: 1rem;
+}
+
+ .separator p {
+  text-align: center;
+  border: 1px solid var(--color-01);
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  color: var(--color-01);
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #fff;
+  z-index: 1;
+}
+
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  width: 255px;
+  height: 242px;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.description h3 {
+  color: var(--color-03);
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.6rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.description h2 {
+  color: var(--color-02);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.75rem;
+  padding: 1rem 28rem 2rem 28rem;
+  /* width: 450px; */
+}
+
+.description p {
+  color: var(--color-01);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  padding: 0 26rem;
+}
+
+.vertical-line-2 {
+  border-left: 1px solid var(--color-01);
+  height: 84px;
+  position: absolute;
+  left: 50%;
+  top: 1405px;
+  
+}
+
+.footer {
+  background: url(../assets/desktop/image-footer.jpg) no-repeat;
+  height: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -42px;
+}
+
+.footer .more-experience {
+  color: var(--color-07);
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 44px;
+  width:  21rem ;
+  z-index: 1;
+}
+
+.stay-connected {
+  color: var(--color-07);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  width: 21rem;
+  z-index: 1;
+}
+
+.footer button {
+  width: 12rem;
+  height: 3.6rem;
+  border-radius: 1.8rem;
+  border: none;
+  background-color: var(--color-04);
+  color: var(--color-07);
+  font-size: 1rem;
+  font-weight: 900;
+  z-index: 1;
+
+}
+
+.footer span{
+  color: var(--color-06);
+  
+}
+
+ .footer::before{
+  opacity: 0.9;
+  background-color: var(--color-03);
+  content: '';
+  height: 19rem;
+  position:absolute;
+  width: 100%;
+  transition: 0.3 ease-in-out;
+ 
+  
+} 
